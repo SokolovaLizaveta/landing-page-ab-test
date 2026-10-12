@@ -26,7 +26,7 @@
 
 Проект создан в учебных целях и не является официальным решением Maven Analytics и никак не связан с Maven Analytics.
 
-Подробнее о структуре данных смотреть в [`data_dictionary.md`](data_dictionary.md). В этом же файле приведена ER-схема базы данных.
+Подробнее о структуре данных смотреть в [`data_dictionary.md`](data_dictionary.md) (в этом же файле приведена ER-схема базы данных).
 
 
 ## Структура проекта
@@ -42,7 +42,7 @@ ab_test_project/
 │   ├── products.csv                      # исходные данные о товарах
 │   └── experiment.csv                    # подготовленная выборка для A/B-анализа
 ├── images/
-│   └── database_schema.png              # ER-схема базы данных
+│   └── database_schema.png               # ER-схема базы данных
 ├── notebooks/
 │   ├── 01_experiment_design.ipynb        # ретроспективная оценка мощности и MDE
 │   └── 02_ab_test_analysis.ipynb         # sanity checks и статистический анализ A/B-теста
@@ -51,9 +51,9 @@ ab_test_project/
 │   ├── 01_create_tables.sql              # создание таблиц в БД
 │   ├── 02_data_check.sql                 # первичная проверка данных
 │   ├── 03_experiment_reconstruction.sql  # реконструкция параметров A/B-теста
-│   └── 04_experiment.sql            # формирование аналитической таблицы experiment
-├── data_dictionary.md                   # описание таблиц, полей и связей
-└── README.md                            # описание проекта
+│   └── 04_experiment.sql                 # формирование аналитической таблицы experiment
+├── data_dictionary.md                    # описание таблиц, полей и связей
+└── README.md                             # описание проекта
 ```
 
 
